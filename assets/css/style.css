@@ -1,0 +1,27 @@
+body {
+    background: #FFFFFF;
+}
+
+.table{
+    text-align: center;
+    font-size: 14px;
+}    
+
+.thead{
+    background: #444;
+    color: #FFFFFF;
+}
+
+
+/* list */
+
+input {
+    width: 100%;
+    padding: 4px;
+}
+
+
+/* image */
+.img-fluid{
+    height: 250px;
+}
