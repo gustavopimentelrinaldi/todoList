@@ -1,27 +1,53 @@
 body {
-    background: #FFFFFF;
+	background: #FFFFFF;
+	overflow-x: hidden;
 }
 
+main{
+	margin-bottom: 10px;
+}
+
+/* list / table */
 .table{
-    text-align: center;
-    font-size: 14px;
+	text-align: center;
+	font-size: 14px;
 }    
 
 .thead{
-    background: #444;
-    color: #FFFFFF;
+	background: #444;
+	color: #FFFFFF;
 }
-
-
-/* list */
 
 input {
-    width: 100%;
-    padding: 4px;
+	width: 100%;
+	padding: 4px;
 }
 
+.item p{
+	background: #c3c3c3;
+	color: #fff;
+	padding: 5px;
+	width: 80px;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.highlight{
+	background: orange;
+}
 
 /* image */
 .img-fluid{
-    height: 250px;
+	height: 250px;
+}
+
+/* footer */
+footer{
+	background: #333;
+	color: #eee;
+}
+
+footer p{
+	margin: 0;
 }
